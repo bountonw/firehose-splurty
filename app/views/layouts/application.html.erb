@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Splurty</title>
+    <title>Hopeful Hints &amp; Kindly Quotes</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,22 @@
   </head>
 
   <body>
+    <header class="row">
+      <div class="col-3">
+        LOGO
+      </div>
+      <div class="col-4">
+        Random words of encouragement since 2017
+      </div class="col-5">
+      <%= link_to 'Contribute', '#' %>
+      <%= link_to 'About', '#' %>
+    </header>
+
+    <br class="clear" />
+
     <%= yield %>
+
+
+
   </body>
 </html>
