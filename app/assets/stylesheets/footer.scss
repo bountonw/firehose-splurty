@@ -13,3 +13,18 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
 }
+
+.footer-blurb {
+   font-family:  Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", 
+                Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", 
+                Georgia, serif;
+   font-style: italic;
+   text-align: right;
+   font-size: 10px;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}

@@ -64,21 +64,36 @@ h2 {
   font-family: 'Crimson Text', serif;
 }
 
+h2 span {
+  color: #dddddd;
+}
+
 .next-quote {
   color: #f84342;
   fontfamily: 'nobilemedium_italic', sans-serif;
   font-size: 20px;
 }
 
-.footer-blurb {
-   font-family:  Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", 
-                Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", 
-                Georgia, serif;
-   font-style: italic;
-   text-align: right;
-   font-size: 10px;
-}
-
 .logo:hover {
   text-decoration: none;
+}
+
+.modal {
+  font-family:  Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", 
+                Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", 
+                Georgia, serif;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.spurty-number {
+  text-align: center;
+}
+
+::selection {
+  background-color: #f84342;
 }
